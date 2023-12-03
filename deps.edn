@@ -5,4 +5,10 @@
                      :d :d1-1}}
   :d1-2 {:exec-fn adventofcode23.d1/d1
          :exec-args {:input "d1-1.txt"
-                     :d :d1-2}}}}
+                     :d :d1-2}}
+  :d2-1 {:exec-fn adventofcode23.d2/run
+         :exec-args {:input "d2-1.txt"
+                     :d :d2-1 :mr 12 :mg 13 :mb 14}}
+  :d2-2 {:exec-fn adventofcode23.d2/run
+         :exec-args {:input "d2-1.txt"
+                     :d :d2-2}}}}
